@@ -5,4 +5,5 @@ I couldn't find anything that did this already on my environment
 
 # What to adjust
 WALLPAPERS mapping
+
 Latitude longitude in requests.get
