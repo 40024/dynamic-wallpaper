@@ -83,18 +83,18 @@ def main():
 
     # Map period names to image paths (full paths)
     WALLPAPERS = {
-        "dawn": "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Dawn.png",
-        "day": "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Day.png",
-        "dusk": "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Dusk.png",
+        "dawn":  "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Dawn.png",
+        "day":   "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Day.png",
+        "dusk":  "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Dusk.png",
         "night": "/home/v/Pictures/Wallpapers/Tahoe/26-Tahoe-Beach-Night.png",
     }
 
     # Define periods intervals
     PERIODS = {
-        "dawn": (gse(api_info, "first_light"), gse(api_info, "sunrise")),
-        "day": (gse(api_info, "sunrise"), gse(api_info, "golden_hour")),
-        "dusk": (gse(api_info, "golden_hour"), gse(api_info, "sunset")),
-        "night": (gse(api_info, "sunset"), gse(api_info, "first_light")),
+        "dawn":  (gse(api_info, "first_light"), gse(api_info, "sunrise")),
+        "day":   (gse(api_info, "sunrise"),     gse(api_info, "golden_hour")),
+        "dusk":  (gse(api_info, "golden_hour"), gse(api_info, "sunset")),
+        "night": (gse(api_info, "sunset"),      gse(api_info, "first_light")),
     }
 
     TZ = ZoneInfo("America/Los_Angeles")
@@ -123,4 +123,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
