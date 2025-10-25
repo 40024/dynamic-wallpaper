@@ -7,3 +7,5 @@ I couldn't find anything that did this already on my environment
 WALLPAPERS mapping
 
 Latitude longitude in requests.get
+
+swww calls if you're using a different wallpaper manager
