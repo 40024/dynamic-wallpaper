@@ -1,7 +1,7 @@
 # What Why
-Python script to dynamically change wallpaper depending on current time
+Python script to dynamically change wallpaper depending on current solar event, ie sunrise sunset dawn
 
-I couldn't find anything that did this already on my environment
+I couldn't find anything that did this elegantly already on my linux environment
 
 # What to adjust
 WALLPAPERS mapping
